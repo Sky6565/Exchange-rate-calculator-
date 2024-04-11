@@ -63,7 +63,7 @@
           <option value="TRY">TRY</option>
           <option value="TWD">TWD</option>
           <option value="UAH">UAH</option>
-          <option value="USD">USD</option>
+          <option value="USD" selected>USD</option>
           <option value="UYU">UYU</option>
           <option value="VND">VND</option>
           <option value="ZAR">ZAR</option>
@@ -72,8 +72,9 @@
         <input type="number" id="amount-one" placeholder="0" value="1" />
       </div>
 
-      <div class="Swap-rate-container">
-        <button class="btn" id="rate">SWAP</button>
+      <div class="swap-rate-container">
+        <button class="btn" id="swap">SWAP</button>
+        <div class="rate" id="rate"></div>
       </div>
 
       <div class="currency">
@@ -81,7 +82,7 @@
           <option value="AED">AED</option>
           <option value="ARS">ARS</option>
           <option value="AUD">AUD</option>
-          <option value="NGN">NGN</option>
+          <option value="NGN" selected>NGN</option>
           <option value="BGN">BGN</option>
           <option value="BRL">BRL</option>
           <option value="BSD">BSD</option>
@@ -133,7 +134,7 @@
           <option value="ZAR">ZAR</option>
         </select>
 
-        <input type="number" id="amount-one" placeholder="0" value="0" />
+        <input type="number" id="amount-two" placeholder="0" value="0" />
       </div>
     </div>
 
